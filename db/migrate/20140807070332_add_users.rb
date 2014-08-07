@@ -1,7 +1,7 @@
 class AddUsers < ActiveRecord::Migration
 
   def change
-    create_table :users do 
+    create_table :users do |t|
       t.string :email, :null => false 
       t.string :referral_code, :null => false
       t.integer :referral_id
