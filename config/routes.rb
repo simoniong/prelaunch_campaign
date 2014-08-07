@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  root "users#new"
+
+  resources :users, only: [ :new, :create ] do
+    member do
+      get "refer"
+    end
+  end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

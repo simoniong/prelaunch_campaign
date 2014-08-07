@@ -36,5 +36,6 @@ module PrelaunchCampaign
                                request_specs: false 
     end
 
+    config.ended = false
   end
 end

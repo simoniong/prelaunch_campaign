@@ -1,0 +1,16 @@
+/* Form */
+form{
+	margin-bottom: 0;
+}
+
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
