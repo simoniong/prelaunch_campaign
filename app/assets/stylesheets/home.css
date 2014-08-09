@@ -1,66 +1,54 @@
 /* Home */
-
 .home{
 	padding-bottom: 50px;
 	background: #EDECEA;
 }
 
-.home .page-content{
-	width: 1400px;
-	margin: 0 auto;
-}
-
 .home .hero{
-	width: 100%;
 	height: 446px;
 	background: url(/assets/home/hero.jpg) center center no-repeat;
 	background-size: 1600px 446px;
 	overflow: hidden;
 	position: relative;
 	letter-spacing: .09em;
-	margin: 0 auto;
 }
 
-.home .hero .large{
+.home .hero .title-block{
+  margin-top: 100px;
+}
+
+.home .hero .title{
 	font-weight: bold;
 	font-size: 40px;
 	color: #074E6F;
 	text-transform: uppercase;
-	margin: 85px 0 0 136px;
 	position: relative;
 	z-index: 2;
 	letter-spacing: 2px;
 }
 
-.home .hero .small{
+.home .hero .subtitle{
 	font-weight: bold;
 	color: #955F5D;
 	font-size: 18px;
-	margin: 10px 0 0 115px;
 	line-height: 30px;
 	position: relative;
 	z-index: 2;
 	text-transform: uppercase;
 	text-align: center;
-	width: 375px;
 	letter-spacing: 1px;
+  margin-bottom: 0px;
 }
 
-.home .form-wrap{
-	height: 80px;
-	width: 411px;
-	margin: 23px auto 0;
-}
-
-.home .form-wrap .key{
+.key{
+  margin: 0 auto;
 	width: 46px;
 	height: 19px;
-	margin: 0 auto;
 	background: url(/assets/home/key.png) 0 0 no-repeat;
 	background-size: 46px 19px;
 }
 
-.home .form-wrap .byline{
+.home .byline{
 	font-size: 15px;
 	text-transform: uppercase;
 	color: #074E6F;
@@ -70,8 +58,7 @@
 	margin: 15px 0;
 }
 
-.home .form-wrap .email{
-	float: left;
+.home .email{
 	font-size: 13px;
 	padding: 8px 0 8px 10px;
 	border: 1px solid #074E6F;
@@ -80,12 +67,14 @@
 	letter-spacing: 1px;
 }
 
-.home .form-wrap .submit{
+.form-wrap{
+	margin: 23px auto 0;
+}
+
+.form-wrap .submit{
 	width: 143px;
 	background: #074E6F;
-	float: left;
 	height: 37px;
-	line-height: 37px;
 	color: #FFF;
 	font-size: 13px;
 	text-transform: uppercase;
