@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   root "users#new"
 
-  resources :users, only: [ :new, :create ] do
+  resources :users, only: [ :new, :create, :show ] do
     member do
-      get "refer"
+      get "confirm"
     end
   end
 
